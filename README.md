@@ -1,7 +1,7 @@
 # PicoVDP
 Retro video display processor built using Digital
 
-#Reference
+# Reference
 Here are some great projects that inspired this project.
 
 [ProjectF FPGA Tutorials](https://projectf.io/posts/fpga-graphics/).

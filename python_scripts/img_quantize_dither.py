@@ -101,7 +101,8 @@ if __name__ == "__main__":
 
     image = load_image(input_image_path)
     # Resize the image
-    image = image.resize((640, 480))
+    # image = image.resize((640, 480))
+    image = image.resize((480, 272))
     dithered_img = floyd_steinberg_dithering(image, color_palette)
     dithered_img.save('palette_image.png')
 
